@@ -1,0 +1,53 @@
+@media screen and (max-width:1200px){
+    .main {
+        width: 960px;
+    }
+    .left {
+        width: 590px;
+    }
+    .news{
+        width: 960px;
+        height: 850px;
+    }
+    .img{
+        width: 250px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:992px){
+    .main {
+        width: 960px;
+    }
+    .left {
+        width: 590px;
+    }
+    .news{
+        width: 960px;
+    }
+    .img{
+        width: 200px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:768px){
+    .header h3{
+        width: 150px;
+    }
+    .main{
+        width: 540px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (max-width:576px){
+    .header{
+        padding: 25px;
+    }
+
+}
